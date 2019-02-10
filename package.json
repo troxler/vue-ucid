@@ -1,0 +1,22 @@
+{
+  "name": "ucid",
+  "version": "1.0.0",
+  "description": "Vue.js mixin to get unique component IDs.",
+  "main": "src/ucid.js",
+  "peerDependencies": {
+    "vue": "2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troxler/vue-ucid.git"
+  },
+  "keywords": [
+    "vue.js"
+  ],
+  "author": "troxler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troxler/vue-ucid/issues"
+  },
+  "homepage": "https://github.com/troxler/vue-ucid"
+}
