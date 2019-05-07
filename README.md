@@ -14,24 +14,26 @@ Install it:
 Then add it to your component(s) that need(s) a unique ID.
 `ucid` is *identical* within one component and *unique* over all other components (including siblings and child components).
 
-    <template>
-        <!-- example usage -->
-        <div :id="'test-' + ucid">{{ucid}}</div>
-    </template>
-    
-    <script>
-        import ucid from 'ucid';
-    
-        export default {
-            mixins: [
-                ucid,
-            ],
-            mounted() {
-                // example usage
-                console.log('ID:', this.ucid);
-            },
-        };
-    </script>
+```html
+<template>
+    <!-- example usage -->
+    <div :id="'test-' + ucid">{{ucid}}</div>
+</template>
+
+<script>
+    import ucid from 'ucid';
+
+    export default {
+        mixins: [
+            ucid,
+        ],
+        mounted() {
+            // example usage
+            console.log('ID:', this.ucid);
+        },
+    };
+</script>
+```
 
 
 ## How it works
